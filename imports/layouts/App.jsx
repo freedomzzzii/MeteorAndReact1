@@ -1,7 +1,7 @@
 import React from 'react';
 import {createContainer} from 'meteor/react-meteor-data';
 
-import FormLogin from '../pages/FormLogin.jsx';
+import Home from '../pages/Home.jsx';
 
 //stateless function
 export const App = (props) => (

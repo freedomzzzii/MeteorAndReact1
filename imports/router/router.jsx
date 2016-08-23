@@ -6,14 +6,14 @@ import {mount} from 'react-mounter';
 import App from '../layouts/App.jsx';
 
 //Component pages
-import FormLogin from '../pages/FormLogin.jsx';
+import Home from '../pages/Home.jsx';
 
 FlowRouter.route('/', {
   name: 'root',
   action()
   {
     mount(App, {
-      content: <FormLogin/>,
+      content: <Home/>,
     });
   },
 });
